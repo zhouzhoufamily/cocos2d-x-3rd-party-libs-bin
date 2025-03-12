@@ -11,7 +11,7 @@ if(OHOS)
     unzip.cpp
     ioapi_mem.cpp
   )
-elseif()
+else()
   set(${target_name}_src
     ioapi.cpp
     unzip.cpp
